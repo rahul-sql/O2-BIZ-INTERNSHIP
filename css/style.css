@@ -1,0 +1,188 @@
+/* 
+Project Name: INTERNSHIP
+Client: O2 BIZ SERVICES
+Author: RAHUL PATIL | @rahul-sql
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+body {
+      /* add a fallback color of #d6d6d6 */
+     background-image: url("../images/codebg.jpg"); /* The image used */
+     background-color: #cccccc; /* Used if the image is unavailable */
+     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.5; /* line-height is unit-less */
+     font-size: 100%;
+     }  
+section.logo{
+     background-color: white;
+     padding: 20px;
+     border-radius: 20px 20px 0 0;
+}
+section.logo img{
+     width: 100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+
+section.about{
+     padding: 30px;
+     background-color: rgb(230, 230, 230);
+}
+
+aside.internimg img{
+     text-align: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     
+}
+
+section.courseinfo{
+     background-color: white;
+     padding: 30px;
+}
+
+section.about h1{
+     text-align: center;
+     font-family: 'Archivo Black';font-size: 22px;
+     font-size: 1.75rem;
+     color: maroon;
+}
+
+section.contact{
+     background-color: rgb(230, 230, 230);
+     padding: 30px;
+     font-size: 20px;
+}
+
+aside.intro{
+     font-size: 1.1rem;
+     text-align: center;
+}
+
+section.form{
+     background-color: white;
+     padding: 30px;
+}
+
+.fill{
+     text-align: left;
+     line-height: 20px;
+}
+
+input[type=text], select {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
+   
+
+   input[type=submit] {
+     width: 100%;
+     background-color: #4CAF50;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+
+.info{
+     text-align: center;
+     font-family: 'Archivo Black';font-size: 22px;
+     font-size: 1.75rem;
+     color: maroon;
+
+}
+
+aside.codeimg img{
+     width: 220px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+
+
+.point{
+    font-size: 35px;
+    font-weight: bold;
+    color: coral;
+}
+
+.footer{
+     color: whitesmoke;
+     font-weight: bolder;
+}
+
+aside.content{
+    font-size: 25px;
+    padding-left: 100px;  
+}
+
+aside.contactlogo img{
+     width: 240px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+
+address{
+     font-size: 20px;
+}
+
+a{
+     text-decoration: none;
+     color: red;
+}
+
+
+.main{
+     width: 600px;
+     margin: 0 auto 0 auto;
+     padding-top: 50px;     
+}
+
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
